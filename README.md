@@ -57,7 +57,7 @@ Use this module instead like so:
 ```python
 from blocks_utils.owners import *
 
-@case_owner('key')
+@case_owners('key1', 'key2', ...)
 ```
 
-and add yourself to the ```_owner_list``` dict in owners.py
+and add yourself to the ```_owner_map``` dict in owners.py
